@@ -214,7 +214,7 @@ associations such that an owner has many pets. Wow! Let's give it a shot. Still
 in your Pry console that you entered via the `binding.pry` in the
 `post '/owners'` action of the `OwnersController`, type:
 
-```ruby
+```ruby 
 @owner = Owner.create(params["owner"])
 # => #<Owner:0x007fdfcc96e430 id: 2, name: "Adele">
 ```
